@@ -20,7 +20,7 @@
 const rndNum = Math.trunc(Math.random() * 20) + 1
 let score = 20
 
-document.querySelector('.number').textContent = rndNum
+
 
 
 document.querySelector('.check').addEventListener('click', function () {
@@ -31,6 +31,7 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('.message').textContent = "no number slected"
     } else if (guess == rndNum) {
         document.querySelector('.message').textContent = "YOU GOT IT"
+        document.querySelector('.number').textContent = rndNum
 
     } else if (guess > rndNum) {
         document.querySelector('.message').textContent = "📈 TOO HIGH A GUESS"
