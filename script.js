@@ -30,7 +30,7 @@ document.querySelector('.check').addEventListener('click', function () {
     if (!guess) {
         document.querySelector('.message').textContent = "no number slected"
     } else if (guess == rndNum) {
-        document.querySelector('.message').textContent = "YOU GOT IT"
+        document.querySelector('.message').textContent = "YOU GOT IT cee-cee lol"
         document.querySelector('.number').textContent = rndNum
 
     } else if (guess > rndNum) {
